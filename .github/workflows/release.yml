@@ -53,6 +53,9 @@ jobs:
             echo "version-updated=true" >> $GITHUB_OUTPUT
             fi
 
+      - name: Lint code
+        run: yarn lint
+
       - name: Commit version update
         if: ${{ steps.version-check.outputs.version-updated == 'true' }}
         run: |
