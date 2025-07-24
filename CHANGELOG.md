@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [1.1.0](https://github.com/anuragbhatt1805/Profyle/compare/v1.0.0...v1.1.0) (2025-07-24)
+
+
+### Bug Fixes
+
+* dummy js file for future development ([107cceb](https://github.com/anuragbhatt1805/Profyle/commit/107cceb374f2bc2ae48459fc52a9fb91c93aeacd))
+
 # 1.0.0 (2025-07-24)
 
 
