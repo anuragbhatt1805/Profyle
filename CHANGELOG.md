@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+# [2.0.0](https://github.com/anuragbhatt1805/Profyle/compare/v1.1.0...v2.0.0) (2025-07-24)
+
+
+### Features
+
+* added a worflow for merge request ([40573ea](https://github.com/anuragbhatt1805/Profyle/commit/40573eae8be64c89abca0ca227a7f9f183457977))
+* added a worflow for merge request ([0483c4a](https://github.com/anuragbhatt1805/Profyle/commit/0483c4a907f32204fcc2431af985b2480fc20682))
+
 # [1.1.0](https://github.com/anuragbhatt1805/Profyle/compare/v1.0.0...v1.1.0) (2025-07-24)
 
 
