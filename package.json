@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Backend Application for Profyle",
   "main": "index.js",
-  "repository": "git@github.com:anuragbhatt1805/Profyle.git",
+  "repository": "https://github.com/anuragbhatt1805/Profyle.git",
   "author": "Anurag Bhatt",
   "license": "MIT",
   "private": true,

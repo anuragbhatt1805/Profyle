@@ -1,5 +1,6 @@
 {
   "branches": ["main"],
+  "repositoryUrl": "https://github.com/anuragbhatt1805/Profyle.git",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
