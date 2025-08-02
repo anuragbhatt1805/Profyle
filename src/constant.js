@@ -7,6 +7,7 @@ dotenv.config({
     quiet: true
 });
 
+export const APP_VERSION = pkg.version;
 export const APP_NAME = process.env.APP_NAME || pkg.name;
 export const ENV = process.env.NODE_ENV || 'development';
 
