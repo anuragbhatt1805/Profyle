@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [2.0.0](https://github.com/anuragbhatt1805/Profyle/compare/v1.0.0...v2.0.0) (2025-08-02)
+
+
+### Features
+
+* added logger feature ([#4](https://github.com/anuragbhatt1805/Profyle/issues/4)) ([aca8d14](https://github.com/anuragbhatt1805/Profyle/commit/aca8d14939daa368d4b00cd9e34af0abc96c6c3d))
+
 # 1.0.0 (2025-08-02)
 
 
