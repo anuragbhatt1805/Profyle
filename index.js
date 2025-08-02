@@ -1,12 +1,8 @@
-import express from 'express';
+import { PORT } from './src/constant.js';
 
-const app = express();
-const PORT = 3000;
+import server from './src/server.js';
 
-app.get('/', (req, res) => {
-    res.send('Hello, Express with ES Modules!');
-});
 
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+server.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
