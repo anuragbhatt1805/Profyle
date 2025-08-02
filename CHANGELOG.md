@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.0.0 (2025-08-02)
+
+
+### Features
+
+* Initial Code Setup completed ([8035fbc](https://github.com/anuragbhatt1805/Profyle/commit/8035fbc0548c4feb696b7a0a7b922561ed5d757b))
+
 # [2.0.0](https://github.com/anuragbhatt1805/Profyle/compare/v1.1.0...v2.0.0) (2025-07-24)
 
 

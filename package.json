@@ -1,6 +1,6 @@
 {
   "name": "profyle",
-  "version": "2.0.0",
+  "version": "1.0.0",
   "description": "Backend Application for Profyle",
   "main": "index.js",
   "repository": "https://github.com/anuragbhatt1805/Profyle.git",
