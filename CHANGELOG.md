@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 # 1.0.0 (2025-08-02)
 
 
+### Bug Fixes
+
+* Update ESLint configuration to use node globals instead of browser globals ([b75e217](https://github.com/anuragbhatt1805/Profyle/commit/b75e217b0e80e98644d5bac782435a15faa65ee4))
+
+
+### Features
+
+* Initial Code Setup completed ([8035fbc](https://github.com/anuragbhatt1805/Profyle/commit/8035fbc0548c4feb696b7a0a7b922561ed5d757b))
+* Set up environment configuration and server structure ([5e13b50](https://github.com/anuragbhatt1805/Profyle/commit/5e13b50ee22a0a5914d7112f0f6a4706035b20ab))
+
+# 1.0.0 (2025-08-02)
+
+
 ### Features
 
 * Initial Code Setup completed ([8035fbc](https://github.com/anuragbhatt1805/Profyle/commit/8035fbc0548c4feb696b7a0a7b922561ed5d757b))
