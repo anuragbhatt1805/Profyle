@@ -1,5 +1,6 @@
 {
   "branches": ["main"],
+  "repositoryUrl": "https://github.com/anuragbhatt1805/Profyle.git",
   "plugins": [
     [
       "@semantic-release/commit-analyzer",
@@ -43,7 +44,7 @@
       "@semantic-release/git",
       {
         "assets": ["package.json", "CHANGELOG.md"],
-        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+        "message": "chore(release): ${nextRelease.version}"
       }
     ]
   ]

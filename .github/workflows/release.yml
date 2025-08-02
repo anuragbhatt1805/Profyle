@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PRIVATE_GITHUB_TOKEN }}
           persist-credentials: true
 
       - name: Setup Node.js
@@ -42,25 +42,15 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Check for version update
-        id: version-check
-        run: |
-            if git diff --exit-code package.json; then
-            echo "No version update found."
-            echo "version-updated=false" >> $GITHUB_OUTPUT
-            else
-            echo "Version updated."
-            echo "version-updated=true" >> $GITHUB_OUTPUT
-            fi
+      - name: Lint code
+        run: yarn lint
 
       - name: Commit version update
-        if: ${{ steps.version-check.outputs.version-updated == 'true' }}
         run: |
           yarn release
 
       - name: Push changes
-        if: ${{ steps.version-check.outputs.version-updated == 'true' }}
         run: |
           git push origin main --follow-tags
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PRIVATE_GITHUB_TOKEN: ${{ secrets.PRIVATE_GITHUB_TOKEN }}
