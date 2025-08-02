@@ -9,7 +9,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "NODE_ENV=production node index.js",
+    "start": "node index.js",
     "dev": "nodemon index.js",
     "release": "semantic-release --no-ci",
     "lint": "eslint . --ext .js",
@@ -28,6 +28,7 @@
   "dependencies": {
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
-    "mongoose": "^8.17.0"
+    "mongoose": "^8.17.0",
+    "winston": "^3.17.0"
   }
 }
