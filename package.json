@@ -9,7 +9,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "NODE_ENV=production node index.js",
     "dev": "nodemon index.js",
     "release": "semantic-release --no-ci",
     "lint": "eslint . --ext .js",
