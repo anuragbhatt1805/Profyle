@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+# [3.0.0](https://github.com/anuragbhatt1805/Profyle/compare/v2.0.0...v3.0.0) (2025-08-02)
+
+
+### Features
+
+* integrate logger and route listing functionality ([8563d1a](https://github.com/anuragbhatt1805/Profyle/commit/8563d1a335363fb03bf98d5d2a4231a9f2cbecf5))
+
 # [2.0.0](https://github.com/anuragbhatt1805/Profyle/compare/v1.0.0...v2.0.0) (2025-08-02)
 
 
