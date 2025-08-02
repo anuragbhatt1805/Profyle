@@ -1,8 +1,15 @@
-import { PORT } from './src/constant.js';
+import { PORT, APP_NAME } from "./src/constant.js";
 
-import server from './src/server.js';
+import server from "./src/server.js";
 
+import { connectDB } from "./src/config/db.js";
 
-server.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+connectDB()
+  .then(() => {
+    server.listen(PORT, () => {
+      console.log(`${APP_NAME} API is running on port ${PORT}`);
+    });
+  })
+  .catch((error) => {
+    console.error("Failed to connect to the database:", error);
+  });
