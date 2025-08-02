@@ -7,6 +7,6 @@ export const connectDB = async () => {
         const mongo = await mongoose.connect(`${MONGO_URI}/${APP_NAME.toLowerCase()}`)
         console.log("MONGO:",`Database connected: "${mongo.connection?.name}" for ${APP_NAME}`);
     } catch (error) {
-        console.error("MONGO:","Database connection failed");
+        console.error("MONGO:","Database connection failed with error:", error);
     }
 }

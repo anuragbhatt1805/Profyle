@@ -1,4 +1,4 @@
-import pkg from '../package.json' assert { type: 'json' };
+import pkg from '../package.json' with { type: 'json' };
 
 // Load environment variables from .env file
 import dotenv from 'dotenv';
